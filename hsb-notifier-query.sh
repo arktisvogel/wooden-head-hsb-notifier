@@ -5,6 +5,8 @@
 # Finally, it invokes AWK to only write those lines which
 # contain the string:
 #   "open"
+# Copyright 2016 Craig Parker-Feldmann.
+# Licensed under the GNU General Public License, Version 3
 #
 STAMM=$(basename $0)
 HSB_URL=https://hackerspacehb.appspot.com/v2/status
