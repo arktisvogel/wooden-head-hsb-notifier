@@ -2,7 +2,7 @@
 # This shell script invokes ``curl''   
 # in order to query the Hackerspace Bremen database.
 # It processes the JSON stream with the 
-# program ``jshon'' (author: Kyle Keen).
+# program ``jshon'' (Copyright 2011 Kyle Keen <keenerd@gmail.com>).
 # Finally, it invokes AWK to only write those lines which
 # contain the string:
 #   "open"
