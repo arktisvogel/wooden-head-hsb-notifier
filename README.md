@@ -1,5 +1,7 @@
 # wooden-head-hsb-notifier
 
+## Description
+
 A very simple BASH shell script, which reports whether the Hackerspace Bremen hackerspace is open or not.
 
 ## Algorithm
