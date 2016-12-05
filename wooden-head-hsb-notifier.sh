@@ -10,11 +10,12 @@
 # Licensed under the GNU General Public License, Version 3
 #
 STAMM=$(basename $0)
+JSHON_BIN=jshon
 HSB_URL=https://hackerspacehb.appspot.com/v2/status
 
 echo 'Shell script "'$STAMM'" now running…'
 curl --silent $HSB_URL | \
-    jshon -S | \
+    $JSHON_BIN -S | \
     awk '/\"open\"/'
 echo 'Shell script "'$STAMM' done.'
 #
