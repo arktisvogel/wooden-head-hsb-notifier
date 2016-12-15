@@ -12,4 +12,4 @@ This shell script invokes ``curl`` in order to query the Hackerspace Bremen data
 
 It processes the JSON stream with the program ``jshon``.
 
-Finally, it invokes AWK to only write those lines which contain the string: ``"open"``
+Finally, it invokes AWK to only display those lines which contain the string: ``"open"``
