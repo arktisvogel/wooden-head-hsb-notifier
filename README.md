@@ -1,7 +1,7 @@
 % wooden-head-hsb-notifier
 % Craig Parker-Feldmann
 % 2017-05-19
-![Wooden head](./images/whhn-01.jpg)
+![Wooden head](./images/whhn-03.jpg)
 # wooden-head-hsb-notifier
 
 Copyright ©2016 Craig Parker-Feldmann
