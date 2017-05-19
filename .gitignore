@@ -1,4 +1,5 @@
 *.xcf
+*.png
 
 cpf-git-push--most-recent-push.txt
 cpf-git-push.sh
