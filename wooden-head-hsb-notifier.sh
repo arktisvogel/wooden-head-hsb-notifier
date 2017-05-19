@@ -6,17 +6,15 @@
 # Finally, it invokes AWK to only write those lines which
 # contain the string:
 #   "open"
-# Copyright 2016 Craig Parker-Feldmann.
+# Copyright ©2016 Craig Parker-Feldmann.
 # Licensed under the GNU General Public License, Version 3
 #
 STAMM=$(basename $0)
-JSHON_BIN=jshon
 HSB_URL=https://hackerspacehb.appspot.com/v2/status
 
-echo 'Shell script "'$STAMM'" now running…'
+echo 'Shell script "'$0'" now running…' >&2
 curl --silent $HSB_URL | \
-    $JSHON_BIN -S | \
-    awk '/\"open\"/'
-echo 'Shell script "'$STAMM' done.'
+    jshon -s "open" | \
+echo 'Shell script "'$0' done.' >&2
 #
 # EOF
