@@ -1,0 +1,60 @@
+% -*- mode: Plain-TeX -*-
+% wooden-head-hsb-notifier
+% Copyright ©2016 Craig Parker-Feldmann
+%
+\input {wooden-head-hsb-notifier.iluatex}
+%
+{\libertineregular
+\noindent \vrule height 10pt depth 18pt width 1em\hskip 0.5em%
+{\UeberschriftFont wooden-head-hsb-notifier}\par
+
+\vskip 20pt
+\noindent {\UeberschriftFont Description}\par
+
+\medskip
+\noindent A very simple BASH shell script, which reports whether the
+Hackerspace Bremen is open or not.\par
+
+\bigskip
+\noindent {\UeberschriftFont Algorithm}\par
+
+\medskip
+\noindent This shell script invokes {\texgyrecursor curl} in order to
+query the Hackerspace Bremen website.\par
+
+It processes the resulting JSON stream with the program
+{\texgyrecursor jshon}. Next, it invokes {\texgyrecursor tr}
+in order to convert all curly-brace (open) characters into
+newline characters. Finally, it invokes {\texgyrecursor grep}
+in order to display any line which matches the pattern
+“{\texgyrecursor /ST3/}”.\par
+
+\bigskip
+\noindent {\UeberschriftFont Installation}\par
+
+\medskip
+\noindent The {\texgyrecursor wooden-head-hsb-notifier}
+application is in a single shell-script. There is a
+dependency: you must have {\texgyrecursor jshon} installed on
+your system.\par
+
+You are expected to have the following two tools on your
+system: “{\texgyrecursor tr}” and “{\texgyrecursor grep}”.\par
+
+\medskip
+\noindent Kyle Keen's {\texgyrecursor jshon} homepage:\hfil \break
+\hphantom {MM}\cpfURL {http://kmkeen.com/jshon/}\par
+
+\medskip
+\noindent gitHub source-code repository:\hfil \break
+\hphantom {MM}\cpfURL {https://github.com/keenerd/jshon}\par
+
+}% End of \libertineregular
+%
+% Local Variables:
+% mode: Plain-TeX
+% engine: luatex
+% tab-width: 2
+% End:
+%
+% EOF

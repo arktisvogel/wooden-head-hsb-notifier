@@ -1,0 +1,53 @@
+% -*- mode: Plain-TeX ; tab-width: 2 -*-
+% Craig Parker-Feldmann created this file
+% in order to load fonts into LuaTeX
+% in a manner which suits his tastes.
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input {luaotfload.sty}% Lua Open Type Font Load
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The preceding line loads the header file which does the following:
+%%
+%%   Classical Plain+\LATEX package initialization.
+%%
+%%  \csname ifluaotfloadloaded\endcsname
+%%  \let\ifluaotfloadloaded\endinput
+%%  \bgroup\expandafter\expandafter\expandafter\egroup
+%%  \expandafter\ifx\csname ProvidesPackage\endcsname\relax
+%%    \input luatexbase.sty
+%%  \else
+%%    \NeedsTeXFormat{LaTeX2e}
+%%    \ProvidesPackage{luaotfload}%
+%%      %% FIXME  The date is meaningless, we need to find a way to
+%%      %%        use the git revision instead.
+%%      [2014/08/10 v2.5-4 OpenType layout system]
+%%    \RequirePackage{luatexbase}
+%%  \fi
+%%  \RequireLuaModule{luaotfload-main}
+%%
+% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\message {Now loading cpf-fontload.iluatex.}%
+%
+% Linux Libertine and Linux Biolinum Fonts:
+\font \libertineregular  = {name:Linux Libertine O} at 10pt
+%\font \biolinumregular   = {name:Linux Biolinum O}  at 10pt
+%
+% TeX Gyre Fonts:
+%\font \texgyreadventor = {TeXGyreAdventor} at 10pt
+%\font \texgyrebonum    = {TeXGyreBonum}    at 10pt
+%\font \texgyrechorus   = {TeXGyreChorus}   at 10pt
+\font \texgyrecursor   = {TeXGyreCursor}   at 10pt
+%\font \texgyreheros    = {TeXGyreHeros}    at 10pt
+%\font \texgyrepagella  = {TeXGyrePagella}  at 10pt
+%\font \texgyreschola   = {TeXGyreSchola}   at 10pt
+%\font \texgyretermes   = {TeXGyreTermes}   at 10pt
+%
+% Define a 14-point font to be used as a Subhead-Face:
+\font \UeberschriftFont = {name:Linux Libertine O} at 14pt
+%
+% Local Variables:
+% mode: Plain-TeX
+% engine: luatex
+% tab-width: 2
+% End:
+%
+% EOF

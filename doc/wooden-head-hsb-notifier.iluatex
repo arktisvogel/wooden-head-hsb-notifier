@@ -1,0 +1,13 @@
+% -*- mode: Plain-TeX -*-
+%
+\input {cpf-fontload.iluatex}%
+%
+\def \cpfURL#1{{\texgyrecursor #1}}%
+%
+%% \def \jive {%
+%%   WWWWW%
+%%   }%
+%
+\hsize = 22pc
+%
+% EOF
