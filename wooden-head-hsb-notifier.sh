@@ -23,8 +23,14 @@ echo 'Shell script "'$0' done.' >&2
 #
 # As of 2017-06-14, the output of this shell script looks like this:
 #
+# In the morning:
 #   Shell script "./wooden-head-hsb-notifier.sh" now running…
 #     "ST3": "CLOSED",
+#   Shell script "./wooden-head-hsb-notifier.sh done.
+#
+# In the afternoon:
+#   Shell script "./wooden-head-hsb-notifier.sh" now running…
+#     "ST3": "OPEN",
 #   Shell script "./wooden-head-hsb-notifier.sh done.
 #
 # EOF
