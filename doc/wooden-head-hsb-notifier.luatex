@@ -5,7 +5,7 @@
 \input {wooden-head-hsb-notifier.iluatex}
 %
 {\libertineregular
-\noindent \vrule height 10pt depth 18pt width 1em\hskip 0.5em%
+\noindent \vrule height 10pt depth 14pt width 1em\hskip 0.5em%
 {\UeberschriftFont wooden-head-hsb-notifier}\par
 
 \vskip 20pt
@@ -34,20 +34,21 @@ in order to display any line which matches the pattern
 
 \medskip
 \noindent The {\texgyrecursor wooden-head-hsb-notifier}
-application is in a single shell-script. There is a
+application is in a single BASH shell-script. There is a
 dependency: you must have {\texgyrecursor jshon} installed on
 your system.\par
 
-You are expected to have the following two tools on your
-system: “{\texgyrecursor tr}” and “{\texgyrecursor grep}”.\par
-
 \medskip
 \noindent Kyle Keen's {\texgyrecursor jshon} homepage:\hfil \break
-\hphantom {MM}\cpfURL {http://kmkeen.com/jshon/}\par
+\hbox to 2em{\hfill}\cpfURL {http://kmkeen.com/jshon/}\par
 
 \medskip
-\noindent gitHub source-code repository:\hfil \break
-\hphantom {MM}\cpfURL {https://github.com/keenerd/jshon}\par
+\noindent GitHub source-code repository:\hfil \break
+\hbox to 2em{\hfill}\cpfURL {https://github.com/keenerd/jshon}\par
+
+\medskip
+You are expected to have the following two tools on your
+system: “{\texgyrecursor tr}” and “{\texgyrecursor grep}”.\par
 
 }% End of \libertineregular
 %
