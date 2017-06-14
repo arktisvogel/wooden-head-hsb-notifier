@@ -1,9 +1,19 @@
-*.xcf
-*.png
+# Deal with files having specific filename extensions
 *.~
 
-curl
+# Deal with specific files
 cpf-git-push--most-recent-push.txt
 cpf-git-push.sh
 transform-md2txt.sh
+
+# Deal with unwanted files in the ./doc directory
 doc/wooden-head-hsb-notifier.log
+
+# Deal with unwanted files in the ./images directory
+images/*.png
+images/*.xcf
+
+# Deal with a specific symbolic link
+curl
+
+# EOF
