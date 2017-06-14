@@ -5,4 +5,4 @@ curl
 cpf-git-push--most-recent-push.txt
 cpf-git-push.sh
 transform-md2txt.sh
-./doc/wooden-head-hsb-notifier.log
+doc/wooden-head-hsb-notifier.log
