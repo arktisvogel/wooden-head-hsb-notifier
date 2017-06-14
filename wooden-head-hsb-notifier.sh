@@ -16,10 +16,15 @@ curl --silent $HSB_URL | \
   jshon | \
   tr '\}' '\n' | \
   grep '\"ST3\"'
+# The above invocation is equivalent to:
+#   curl --silent https://hackerspacehb.appspot.com/v2/status | jshon | tr '\}' '\n' | grep '\"ST3\"'
 
 echo 'Shell script "'$0' done.' >&2
 #
-# As of 2017-06-02, the output of this shell script looks like this:
+# As of 2017-06-14, the output of this shell script looks like this:
 #
+#   Shell script "./wooden-head-hsb-notifier.sh" now running…
+#     "ST3": "CLOSED",
+#   Shell script "./wooden-head-hsb-notifier.sh done.
 #
 # EOF
