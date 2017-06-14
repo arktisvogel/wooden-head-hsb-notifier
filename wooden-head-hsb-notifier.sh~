@@ -17,7 +17,7 @@ curl --silent $HSB_URL | \
   tr '\}' '\n' | \
   grep '\"ST3\"'
 # The above invocation is equivalent to:
-#   curl -s https://hackerspacehb.appspot.com/v2/status | jshon | tr '\}' '\n' | grep '\"ST3\"'
+#   curl --silent https://hackerspacehb.appspot.com/v2/status | jshon | tr '\}' '\n' | grep '\"ST3\"'
 
 echo 'Shell script "'$0' done.' >&2
 #
