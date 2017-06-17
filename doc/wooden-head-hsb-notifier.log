@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=luatex 2017.3.24)  14 JUN 2017 07:29
+This is LuaTeX, Version beta-0.79.1 (TeX Live 2015/dev/Debian) (rev 4971)  (format=luatex 2017.3.24)  15 JUN 2017 15:46
 **wooden-head-hsb-notifier.luatex \bye
 (./wooden-head-hsb-notifier.luatex (./wooden-head-hsb-notifier.iluatex (./cpf-f
 ontload.iluatex (/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/luaotfload
@@ -101,7 +101,7 @@ luatexbase-attr: luatexbase.attributes["luaotfload@cursbase"] = 6
 luatexbase-attr: luatexbase.attributes["luaotfload@curscurs"] = 7
 luatexbase-attr: luatexbase.attributes["luaotfload@cursdone"] = 8
 luatexbase-attr: luatexbase.attributes["luaotfload@state"] = 9
-luaotfload | main : fontloader loaded in 0.020 seconds
+luaotfload | main : fontloader loaded in 0.042 seconds
 luatexbase-mcb: inserting 'luaotfload.node_processor'
 at position 1 in 'pre_line
 break_filter'
@@ -193,7 +193,7 @@ am \texgyrecursor jshon\libertineregular .|
 opentype/public/tex-gyre/texgyrecursor-regular.otf></usr/share/fonts/opentype/li
 nux-libertine/LinLibertine_R.otf><</usr/share/texlive/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmr10.pfb>
-Output written on wooden-head-hsb-notifier.pdf (1 page, 22044 bytes).
+Output written on wooden-head-hsb-notifier.pdf (1 page, 22038 bytes).
 
 PDF statistics: 26 PDF objects out of 1000 (max. 8388607)
  15 compressed objects within 1 object stream

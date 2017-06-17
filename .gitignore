@@ -1,5 +1,5 @@
 # Deal with files having specific filename extensions
-*.~
+*~
 
 # Deal with specific files
 cpf-git-push--most-recent-push.txt
