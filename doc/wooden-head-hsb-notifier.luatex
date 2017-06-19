@@ -12,7 +12,7 @@
 \noindent {\UeberschriftFont Description}\par
 
 \medskip
-\noindent A very simple BASH shell script, which reports whether the
+\noindent A very simple Lua shell script, which reports whether the
 Hackerspace Bremen is open or not.\par
 
 \bigskip
@@ -23,11 +23,7 @@ Hackerspace Bremen is open or not.\par
 query the Hackerspace Bremen website.\par
 
 It processes the resulting JSON stream with the program
-{\texgyrecursor jshon}. Next, it invokes {\texgyrecursor tr}
-in order to convert all curly-brace (open) characters into
-newline characters. Finally, it invokes {\texgyrecursor grep}
-in order to display any line which matches the pattern
-“{\texgyrecursor /ST3/}”.\par
+{\texgyrecursor jshon}.\par
 
 \bigskip
 \noindent {\UeberschriftFont Installation}\par
@@ -45,10 +41,6 @@ your system.\par
 \medskip
 \noindent GitHub source-code repository:\hfil \break
 \hbox to 2em{\hfill}\cpfURL {https://github.com/keenerd/jshon}\par
-
-\medskip
-You are expected to have the following two tools on your
-system: “{\texgyrecursor tr}” and “{\texgyrecursor grep}”.\par
 
 }% End of \libertineregular
 %
