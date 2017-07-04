@@ -1,7 +1,7 @@
 wooden-head-hsb-notifier
 ========================
 
-![Wooden head](images/whhn-03.jpg)
+![Wooden head](images/whhn-04.jpg)
 
 Copyright ©2016 Craig Parker-Feldmann
 
