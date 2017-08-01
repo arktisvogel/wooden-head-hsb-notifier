@@ -7,8 +7,6 @@ __Kyle Keen's `jshon` homepage:__ http://kmkeen.com/jshon/
 
 __gitHub source-code repository:__ https://github.com/keenerd/jshon
 
-You are expected to have the following two tools on your system: “`tr`” and “`grep`”.
-
 <!-- Local Variables: -->
 <!-- mode: markdown -->
 <!-- tab-width: 4 -->
