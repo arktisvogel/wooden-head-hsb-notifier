@@ -15,6 +15,8 @@ This shell script invokes lua, which executes a call to the operating system. Th
 
 It processes the resulting JSON stream with the program `jshon`.
 
+&#10087;&nbsp;&#10087;&nbsp;&#10087;
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NTc4ODc2NzJdfQ==
+eyJoaXN0b3J5IjpbLTE5ODYzNzY5MzgsLTE3NTc4ODc2NzJdfQ
+==
 -->
